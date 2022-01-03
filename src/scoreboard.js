@@ -11,7 +11,7 @@ export default class ScoreBoard extends Phaser.Scene {
       }
     create()
     {   this.game.sound.stopAll();
-        this.musica = this.sound.add('mainumusic', 
+        this.musica = this.sound.add('menumusic', 
         {volume: this.game.sound.volume * 0.5, loop: true});
         this.musica.play();
         this.add.sprite(1000,300,'background').setDepth(-2);
